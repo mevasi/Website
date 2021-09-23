@@ -1,41 +1,4 @@
-﻿.js-nametag {
-    position: absolute;
-    left: 20%;
-    transform: translate(-50%, 0);
-}
-
-.js-nametag:nth-child(1) {
-    animation-name: fade;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-    animation-direction: alternate-reverse;
-}
-
-
-.js-nametag:nth-child(2) {
-    animation-name: fade;
-    animation-fill-mode: both;
-    animation-iteration-count: infinite;
-    animation-duration: 3s;
-    animation-direction: alternate;
-}
-
-
-@keyframes fade {
-    0%,50% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-
-
-
-button {
+﻿button {
     background-color: #808080; /* Green */
     border: none;
     border-radius: 8px;
