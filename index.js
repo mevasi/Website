@@ -1,13 +1,13 @@
 function projects() {
-    window.open("projects.html")
+    window.location.href = "projects.html"
 }
 
 
 function skills() {
-    window.open("skills.html")
+    window.location.href = "skills.html"
 }
 
 
 function contact() {
-    window.open("contact.html")
+    window.location.href = "contact.html"
 }
